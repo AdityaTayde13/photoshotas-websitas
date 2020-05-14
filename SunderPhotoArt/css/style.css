@@ -1,0 +1,144 @@
+  @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&family=Open+Sans:ital@1&display=swap");
+  html,body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    color: #222;
+        
+  }
+
+    .navbar-brand {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 25px;
+    }
+     .navbar {
+        padding: 0.6rem;
+     }
+      .navbar-nav  li {
+        padding-right: 1.5rem;
+     }
+.nav-link {
+    font-size: 1.2em !important;
+}
+.carousel-inner {
+  left: 5vw;
+  overflow: hidden;
+  height: 90vh;
+  width: 90vw;
+}
+.carousel-inner img {
+  height: 90vh;
+  width: 90vw;
+}
+.Title h2{
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Open Sans Condensed", sans-serif;
+}
+ hr {
+    padding-top: 1rem;
+   border-top: 2px solid black ;
+}
+#ServiceArea {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card img {
+  height: 15rem;
+}
+.card-body {
+  padding-right: 0;
+  padding-left: 0;
+}
+.card-title {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.card-title button {
+  border: none;
+  padding: 0;
+  background-color: none;
+  cursor: pointer;
+}
+
+#showcase img {
+  height: 15rem;
+  width:18rem;
+  padding-top: 30px;
+  transition: 1s;
+}
+#showcase img:hover{
+  transform: scale(1.1);
+  filter: grayscale(50%);  
+}
+.Social {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 2rem;
+}
+.Social a{
+  font-size: 4rem;
+}
+.fa-instagram {
+  background: -webkit-radial-gradient(33% 100% circle, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    background: radial-gradient(circle at 33% 100%, #FED373 4%, #F15245 30%, #D92E7F 62%, #9B36B7 85%, #515ECF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.fa-instagram:hover{
+  transform: scale(1.1);
+    background: -webkit-radial-gradient(33% 100% circle, #515ECF 4%, #9B36B7 30%, #D92E7F 62%, #F15245 85%, #FED373);
+background: radial-gradient(circle at 33% 100%, #ff3be7 4%, #ff3be7 28%, #03ffe8 62%, #F15245 85%, #FED373);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+  }
+  .fa-whatsapp-square {
+    color: #25D366;
+  }
+  .fa-whatsapp-square:hover{
+    transform: scale(1.1);
+    color: purple;
+  }
+.fa-facebook {
+  color: #3b5998;
+}
+.fa-facebook-square:hover{
+transform: scale(1.1);
+color: black;
+}
+.fa-youtube{
+  color: #e52d27;
+  
+}
+.fa-youtube:hover{
+  transform: scale(1.1);
+  color: black;
+}
+.stickIcon {
+  font-size: 2rem;
+  position: fixed;
+  bottom: 30px;
+  right: 10px;
+}
+.stickIcon:hover {
+  transform: scale(1.1);
+}
+footer {
+  background-color: #3f3f3f;
+  color:  #d5d5d5;
+  padding-top: 2rem;
+}
+footer p {
+  color: #d5d5d5;
+ 
+}
+footer i {
+  align-items: self;
+  color: darkcyan;
+}
